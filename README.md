@@ -7,9 +7,9 @@ VPN configs it relies on.
 The split is thought to have multiple benefits. It will reduce noice in the main project and
 hopefully create a meaningful separation that can make it easier to test changes in configs and contribute to keep the providers up to date.
 
-## Fork to provide Perfect Privacy Support
+## Fork to provide Perfect Privacy Support & updated Mullvad Configs
 
-This repository has been forked to provide support for Perfect Privacy. There are a few things to note:
+This repository has been forked to provide support for Perfect Privacy and additionally all Mullvad Configs have been updated along the way as well. There are a few things to note for Perfect Privacy:
 
 - Perfect Privacy will let you choose how you want your config files bundled before downloading. Amongst other options you can also select the grouping, per city or per server. Both choices have been merged together in this repo. You can therefore select freely between 'City-all.ovpn' which will include all servers of any city (provided there is more than one server) adding better redundancy, or choose 'City1-x.ovpn' which will connect you to that exact server for better speed or using the Port Forwarding Option.
 - currently the OpenVPN version of the main container is 2.4, Perfect Privacy standard is currently already version 2.5. There are a few options in the config files version 2.4 cannot work with. So the config files are downgraded to work with OpenVPN 2.4
