@@ -54,7 +54,7 @@ find . ! -name '*.sh' -type f -delete
 # Instructions and download link was found here:
 # https://www.perfect-privacy.com/en/manuals/linux_openvpn_terminal
 # The link will point to the latest version with standard settings. This needs to be adjusted every time the config files are updated due to the Notes in the Readme 
-ovpn_zip="https://www.perfect-privacy.com/downloads/openvpn/get?system=linux"
+ovpn_zip="https://www.perfect-privacy.com/downloads/openvpn/get?system=linux&software=openvpn&version=2.5&scope=<city_or_server<>"
 zip_file="ovpn.zip"
 log "Downloading openvpn configs"
 curl $ovpn_zip -o $zip_file
